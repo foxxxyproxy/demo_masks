@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+section {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.shape {
+  position: relative;
+  overflow: hidden;
+  width: 220px;
+  height: 220px;
+  background-color: #ffffff;
+}
+
+.shape .details {
+  padding-top: 60px;
+  width: 230px;
+  height: 230px;
+  background-color: rgba(75, 90, 120, 0.9);
+  color: #ffffff;
+  display: none;
+}
+
+.shape:hover .details {
+  display: block;
+}
+
+.details header {
+  display: block;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #cccccc;
+  text-transform: uppercase;
+  font-size: 26px;
+}
+
+.details p {
+  margin: 10px auto;
+  width: 70%;
+  line-height: 1.4;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 5px 15px;
+  border-radius: 20px;
+  background-color: #2f3644;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #ffffff;
+  color: #2f3644;
+}
+
+.shape.windmills {
+  background: url("icons v2.jpg") no-repeat -42px -50px;
+}
+.shape.tulips {
+  background: url("icons v2.jpg") no-repeat -290px -50px;
+}
+.shape.pisces {
+  background: url("icons v2.jpg") no-repeat -538px -50px;
+}
+.shape.cheese {
+  background: url("icons v2.jpg") no-repeat -42px -325px;
+}
+.shape.bicycles {
+  background: url("icons v2.jpg") no-repeat -294px -325px;
+}
+.shape.shoes {
+  background: url("icons v2.jpg") no-repeat -536px -325px;
+}
